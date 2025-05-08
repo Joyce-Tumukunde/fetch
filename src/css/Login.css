@@ -1,0 +1,125 @@
+/* Login.css */
+
+/* General Container Styling */
+/* 
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #18486d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */ 
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #084b75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+ }
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.form-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    width: 600px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #4CAF50;
+}
+
+/* Button Styling */
+.button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:active {
+    background-color: #388e3c;
+}
+/* Bottom Text Section */
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.bottom-text a {
+    color: #45a049;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+    .form-title {
+        font-size: 24px;
+    }
+}
